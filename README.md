@@ -2,25 +2,20 @@
 
 [![Support Ukraine](https://badgen.net/badge/support/UKRAINE/?color=0057B8&labelColor=FFD700)](https://savelife.in.ua/en/)
 
-[![Build Status](https://github.com/PerchunPak/python-template/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/PerchunPak/python-template/actions?query=workflow%3Atest)
-[![codecov](https://codecov.io/gh/PerchunPak/python-template/branch/master/graph/badge.svg)](https://codecov.io/gh/PerchunPak/python-template)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Python 3.11 badge](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/downloads/)
-
-My own template for any Python project.
+My own template for any my Svelte project.
 Template can be used anywhere, this includes non-my projects.
 
 ## Installing
 
 ```bash
-pip install cruft lice
-cruft create https://github.com/PerchunPak/python-template
+pipx install cruft
+cruft create https://github.com/PerchunPak/svelte-template
 ```
 
 ### If this doesn't work, try this:
 
 ```bash
-git clone https://github.com/PerchunPak/python-template.git
+git clone https://github.com/PerchunPak/svelte-template.git
 cd python-template
 ```
 
@@ -64,4 +59,4 @@ cruft update
 
 ## Projects using it
 
-[List of open-source projects on GitHub with our mention.](https://github.com/search?q=python-template&type=Code)
+[List of open-source projects on GitHub with our mention.](https://github.com/search?q=svelte-template&type=Code)
