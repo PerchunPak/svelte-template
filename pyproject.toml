@@ -23,7 +23,7 @@ cruft = "~2.15"
 optional = true
 
 [tool.poetry.group.github_hooks.dependencies]
-requests = "~2.30"
+requests = "~2.31"
 GitPython = "~3.1"
 
 
