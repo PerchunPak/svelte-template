@@ -16,7 +16,7 @@ cruft create https://github.com/PerchunPak/svelte-template
 
 ```bash
 git clone https://github.com/PerchunPak/svelte-template.git
-cd python-template
+cd svelte-template
 ```
 
 ### Installing `poetry`
