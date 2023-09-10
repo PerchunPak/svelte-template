@@ -1,0 +1,31 @@
+[build-system]
+requires = ["poetry-core>=1.3.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "svelte-template"
+description = "My own template for any my Svelte project."
+version = "0.1.0"
+license = "MIT"
+authors = ["PerchunPak <svelte-template.author@perchun.it>"]
+readme = "README.md"
+repository = "https://github.com/PerchunPak/svelte-template"
+
+
+[tool.poetry.dependencies]
+python = "^3.7,<3.12"
+
+cruft = "~2.15"
+
+
+[tool.poetry.group.github_hooks]
+optional = true
+
+[tool.poetry.group.github_hooks.dependencies]
+requests = "~2.30"
+GitPython = "~3.1"
+
+
+[tool.cruft]
+skip = ["{{cookiecutter.project_name.lower().replace('-', '_')}}"]

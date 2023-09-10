@@ -1,0 +1,7 @@
+{
+  "project_name": "my-pretty-project",
+  "organization": "PerchunPak",
+  "project_description": "This is how project should look like!",
+  "center_everything": "y",
+  "_copy_without_render": [".venv"]
+}
